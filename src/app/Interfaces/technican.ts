@@ -3,6 +3,8 @@ export interface Technican {
   name:string,
   photo:string,
   rate:number,
-  address:string
+  address:string,
+  breif?:string,
+  sections?:{id:number,name:string}[]
 
 }
